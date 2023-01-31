@@ -26,13 +26,13 @@ let handler = async (m, {conn}) => {
 const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:;;;
-FN: ᯤ 𝙅𝙖𝙧𝙤𝙩 𝙊𝙛𝙘
-item.ORG: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
-item1.TEL;waid=6285850539404:6285850539404@s.whatsapp.net
-item1.X-ABLabel: ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ
+FN: ᯤ 𝙆𝙮𝙗𝙤𝙩𝙫
+item.ORG: ᴀʙᴄ
+item1.TEL;waid=6283892969926:6283892969926@s.whatsapp.net
+item1.X-ABLabel: ᴀʙᴄ
 // Jangan Di Ganti Nomer Yang Bawah!! Jangan Lupa berterima kasih 
-item2.TEL;waid=6285850539404:6285850539404@s.whatsapp.net
-item2.X-ABLabel: Creator Bot
+item2.TEL;waid=13804446922:13804446922@s.whatsapp.net
+item2.X-ABLabel: ᴀʙᴄ
 END:VCARD`
 const sentMsg  = await conn.sendMessage(
     m.chat,
